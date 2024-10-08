@@ -1,2 +1,0 @@
-# doc
-WAwords的doc
