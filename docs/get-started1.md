@@ -1,4 +1,4 @@
-# Get Started11111111112
+# Get Started11
 
 This is a normal page, which contains VuePress basics.
 

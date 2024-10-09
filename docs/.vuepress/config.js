@@ -13,7 +13,27 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
 
-    navbar: ["/", "/get-started"],
+    navbar: [
+      {
+        text: "首页",
+        link: "/",
+      },
+      {
+        text: "指南",
+        children: [
+          {
+            text: "安装",
+            link: "/get-started/",
+          },
+          {
+            text: "配置",
+            link: "/get-started1/",
+          },
+        ],
+      },
+      // "/get-started",
+      // "/get-started1",
+    ],
   }),
 
   bundler: viteBundler(),
