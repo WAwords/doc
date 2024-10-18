@@ -2,6 +2,8 @@
 
 This is a normal page, which contains VuePress basics.
 
+![示例图片](./.vuepress/public/img/111.svg "示例图片")
+
 ## Pages
 
 You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.

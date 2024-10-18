@@ -7,11 +7,11 @@ export default defineUserConfig({
 
   lang: "en-US",
 
-  title: "VuePress",
-  description: "My first VuePress Site",
+  title: "Green Lightning",
+  description: "笔记！文档！GitHub云笔记！",
 
   theme: defaultTheme({
-    logo: "https://vuejs.press/images/hero.png",
+    logo: "/img/logo.svg",
 
     navbar: [
       {
@@ -19,20 +19,14 @@ export default defineUserConfig({
         link: "/",
       },
       {
-        text: "指南",
+        text: "笔记",
         children: [
           {
-            text: "安装",
-            link: "/get-started/",
-          },
-          {
-            text: "配置",
-            link: "/get-started1/",
+            text: "vuepress使用",
+            link: "/guide/vuepress",
           },
         ],
       },
-      // "/get-started",
-      // "/get-started1",
     ],
   }),
 
