@@ -22,7 +22,7 @@ export default defineUserConfig({
         text: "笔记",
         children: [
           {
-            text: "vuepress使用",
+            text: "vuepress",
             link: "/guide/vuepress",
           },
         ],

@@ -2,10 +2,10 @@
 home: true
 title: Home
 heroImage: /img/logo.svg
-actions:
-  - text: 开始
-    link: /getting-started.html
-    type: primary
+# actions:
+#   - text: 开始
+#     link: /getting-started.html
+#     type: primary
 
 features:
   - title: GitHub云笔记
